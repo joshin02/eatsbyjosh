@@ -1,9 +1,10 @@
 .fav-posts {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    align-items: center;
+    gap: 20px;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
