@@ -1,0 +1,6 @@
+.blog-post-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
