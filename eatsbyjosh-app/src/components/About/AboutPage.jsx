@@ -6,7 +6,7 @@ function About() {
         <div>
             <main>
             <div className="summary">
-                <img id="me" src="/img/me.JPG" alt="picture of myself"/>
+                <img id="me" src="/img/Other-Assets/me.JPG" alt="Josh"/>
                 <div className="summaryContent">
                 <h1 className="about">About Me</h1>
                 <p>
