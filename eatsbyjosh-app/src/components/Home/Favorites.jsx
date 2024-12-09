@@ -4,7 +4,7 @@ import "./FavoritesStyle.css"
 function Favorites() {
     return (
         <div className="fav-posts">
-            <FavBlogPost
+            <FavBlogPost 
                 image="/img/steakdonburi.jpg"
                 link="/blog/steak-donburi"
                 dish="Steak Donburi"
