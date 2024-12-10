@@ -1,6 +1,8 @@
 .blog-post-items {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;;
+    gap: 20px;
 }

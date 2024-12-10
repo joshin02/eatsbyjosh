@@ -1,55 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
-.blog-post-page {
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+@media (max-width: 764px) {
+
+    .blog-post-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .blog-intro {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .blog-intro img, .pic-highlights img {
+        width: 80%;
+        height: 80vw;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .blog-intro p, .body-content {
+        width: 80%;
+        font-family: "Nanum Pen Script", cursive;
+        font-size: large;
+    }
+
+    .body-content p {
+        margin-bottom: 15px;
+    }
+
+    .pic-highlights {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .blog-post-page h1 {
+        font-family: "Nanum Pen Script", cursive;
+        color: #A2C1FF;
+        text-align: center;
+        width: 50vw;
+    }
 }
 
-.blog-post-page h1 {
-    background-color: #A2C1FF;
-    font-family: "Nanum Pen Script", cursive;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 150px;
-    padding: 40px;
+
+@media (min-width: 765px) {
+
+    .blog-post-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .blog-intro {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .pic-highlights img {
+        width: 50%;
+        height: 30vw;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .blog-intro img {
+        width: 80%;
+        height: 55vw;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .blog-intro p, .body-content {
+        width: 80%;
+        font-family: "Nanum Pen Script", cursive;
+        font-size: 35px;
+    }
+
+    .body-content p {
+        margin-bottom: 15px;
+    }
+
+    .pic-highlights {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .blog-post-page h1 {
+        font-family: "Nanum Pen Script", cursive;
+        color: #A2C1FF;
+        text-align: center;
+        width: 50vw;
+        font-size: 75px;
+    }
 }
 
-.blog-intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    max-height: 700px;
-}
 
-.blog-intro img {
-    width: 50%;
-    object-fit: cover;
-    padding-right: 25px;
-}
-
-.blog-intro p {
-    margin: 0; 
-    font-family: "Nanum Pen Script", cursive;
-    font-size: clamp(40px, 5vw, 40px);
-}
-
-.pic-highlights {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    max-height: 400px;
-}
-
-.pic-highlights img {
-    width: 30%;
-    object-fit: cover;
-}
-
-.body-content {
-    font-family: "Nanum Pen Script", cursive;
-    font-size: 40px;
-}

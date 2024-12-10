@@ -5,23 +5,23 @@ function Favorites() {
     return (
         <div className="fav-posts">
             <FavBlogPost 
-                image="/img/steakdonburi.jpg"
+                image="/img/Blogs/Steak-Donburi/steakdonburi.jpg"
                 link="/blog/steak-donburi"
                 dish="Steak Donburi"
             />
             <FavBlogPost
-                image="/img/sake.jpg"
-                link="/blog/steak-donburi"
+                image="/img/Blogs/Sake-Blossom/sake.jpg"
+                link="/blog/sake-blossom"
                 dish="Sake Blossom"
             />
             <FavBlogPost
-                image="/img/malashrimp.jpg"
-                link="/blog/steak-donburi"
+                image="/img/Blogs/Mala-Shrimp/malashrimp.jpg"
+                link="/blog/mala-shrimp"
                 dish="Shrimp Toast w/ Mala Sauce"
             />
             <FavBlogPost
-                image="/img/tacos.jpg"
-                link="/blog/steak-donburi"
+                image="/img/Blogs/Steak-Taco/tacos.jpg"
+                link="/blog/steak-taco"
                 dish="Steak Tacos"
             />
         </div>

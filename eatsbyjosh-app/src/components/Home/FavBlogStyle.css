@@ -25,6 +25,7 @@
         width: 40vw;
         height: 30vw;
         background-color: #A2C1FF;
+        opacity: 80%;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         visibility: hidden;
@@ -74,6 +75,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         visibility: hidden;
         text-align: center;
+        opacity: 80%;
     }
     
     .favblogpost a h2 {

@@ -6,9 +6,13 @@ function Home() {
     return (
       <div>
         <main>
-            <h1 className="home">Check out some of my favorite eats!</h1>
+            <div className="home">
+              <h1>Featured Eats!</h1>
+            </div>
             <Favorites/>
-            <h1 className="home">Most Recent Eats</h1>
+            <div className="home">
+              <h1 className="home">Most Recent Eats</h1>
+            </div>
             <BlogPostItems/>
         </main>
       </div>
